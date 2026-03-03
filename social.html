@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Manager | Dipuu</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:linear-gradient(145deg,#0b0d10,#1a1e26);
+    font-family:'Segoe UI',Roboto,system-ui;
+    color:#edf2f9;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.wrapper{
+    max-width:900px;
+    width:100%;
+    background:rgba(20,24,30,0.9);
+    border-radius:40px;
+    padding:40px;
+    border:1px solid rgba(90,140,255,0.25);
+    box-shadow:0 25px 45px -12px rgba(0,0,0,0.85);
+    animation:fadeUp 0.8s ease forwards;
+    opacity:0;
+}
+
+@keyframes fadeUp{
+    from{opacity:0;transform:translateY(30px);}
+    to{opacity:1;transform:translateY(0);}
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    margin-bottom:30px;
+}
+
+.header i{
+    font-size:2.5rem;
+    color:#00c2ff;
+}
+
+.header h1{
+    font-size:2.2rem;
+    font-weight:800;
+    background:linear-gradient(130deg,#ffffff,#bdeaff);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.description{
+    margin-bottom:30px;
+    line-height:1.7;
+    color:#c7d4ec;
+}
+
+.section-title{
+    font-size:0.9rem;
+    letter-spacing:2px;
+    color:#8196b9;
+    margin-bottom:18px;
+    border-left:5px solid #00c2ff;
+    padding-left:14px;
+    text-transform:uppercase;
+}
+
+.skill-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px 18px;
+    margin-bottom:35px;
+}
+
+.skill{
+    background:#1e2636;
+    border-radius:60px;
+    padding:10px 20px;
+    border:1px solid #334153;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:0.95rem;
+    transition:0.2s;
+}
+
+.skill i{
+    color:#00c2ff;
+}
+
+.skill:hover{
+    background:#26334b;
+    transform:translateY(-2px);
+}
+
+.box{
+    background:#1a2231;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:20px;
+    border:1px solid #2f3a52;
+}
+
+.box-title{
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.box-desc{
+    font-size:0.9rem;
+    color:#9fb2d4;
+}
+
+.back-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:14px 26px;
+    border-radius:100px;
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.2);
+    backdrop-filter:blur(15px);
+    transition:0.3s;
+}
+
+.back-btn:hover{
+    transform:translateY(-2px);
+}
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+<div class="header">
+<i class="fas fa-hashtag"></i>
+<h1>Social Media Manager</h1>
+</div>
+
+<div class="description">
+I manage Telegram channels and social media pages focused on engagement growth, brand positioning, and monetization strategies. 
+I help creators and businesses scale their presence through organic growth techniques and paid promotion campaigns.
+</div>
+
+<div class="section-title">// services</div>
+
+<div class="skill-grid">
+<div class="skill"><i class="fas fa-bullhorn"></i> Paid Promotions</div>
+<div class="skill"><i class="fas fa-users"></i> Audience Growth Strategy</div>
+<div class="skill"><i class="fas fa-chart-line"></i> Analytics Optimization</div>
+<div class="skill"><i class="fas fa-rocket"></i> Telegram Channel Scaling</div>
+<div class="skill"><i class="fas fa-camera"></i> Instagram Growth Planning</div>
+<div class="skill"><i class="fas fa-coins"></i> Monetization Strategy</div>
+</div>
+
+<div class="section-title">// earning model</div>
+
+<div class="box">
+<div class="box-title">Telegram Promotions</div>
+<div class="box-desc">Monetizing channel traffic by offering paid post placements and sponsored promotions.</div>
+</div>
+
+<div class="box">
+<div class="box-title">Instagram Brand Deals</div>
+<div class="box-desc">Collaborating with small brands and pages to generate monthly recurring income.</div>
+</div>
+
+<a href="index.html" class="back-btn">
+<i class="fas fa-arrow-left"></i> Back to Portfolio
+</a>
+
+</div>
+
+</body>
+</html>

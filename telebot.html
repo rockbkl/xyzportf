@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Telegram Bot Developer | Dipuu</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:linear-gradient(145deg,#0b0d10,#1a1e26);
+    font-family:'Segoe UI',Roboto,system-ui;
+    color:#edf2f9;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.wrapper{
+    max-width:950px;
+    width:100%;
+    background:rgba(20,24,30,0.9);
+    border-radius:40px;
+    padding:40px;
+    border:1px solid rgba(90,140,255,0.25);
+    box-shadow:0 25px 45px -12px rgba(0,0,0,0.85);
+    animation:fadeUp 0.8s ease forwards;
+    opacity:0;
+}
+
+@keyframes fadeUp{
+    from{opacity:0;transform:translateY(30px);}
+    to{opacity:1;transform:translateY(0);}
+}
+
+/* HEADER */
+.header{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    margin-bottom:30px;
+}
+
+.header i{
+    font-size:2.5rem;
+    color:#00bfff;
+}
+
+.header h1{
+    font-size:2.2rem;
+    font-weight:800;
+    background:linear-gradient(130deg,#ffffff,#bdeaff);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+/* DESCRIPTION */
+.description{
+    margin-bottom:30px;
+    line-height:1.7;
+    color:#c7d4ec;
+}
+
+/* SECTION TITLE */
+.section-title{
+    font-size:0.9rem;
+    letter-spacing:2px;
+    color:#8196b9;
+    margin-bottom:18px;
+    border-left:5px solid #00bfff;
+    padding-left:14px;
+    text-transform:uppercase;
+}
+
+/* GRID */
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px 18px;
+    margin-bottom:35px;
+}
+
+.card{
+    background:#1e2636;
+    border-radius:20px;
+    padding:18px 20px;
+    border:1px solid #334153;
+    flex:1 1 260px;
+    transition:0.3s;
+}
+
+.card:hover{
+    background:#26334b;
+    transform:translateY(-3px);
+}
+
+.card i{
+    font-size:1.3rem;
+    color:#00bfff;
+    margin-bottom:10px;
+}
+
+.card-title{
+    font-weight:700;
+    margin-bottom:6px;
+}
+
+.card-desc{
+    font-size:0.85rem;
+    color:#9fb2d4;
+}
+
+/* PRICING */
+.pricing-box{
+    background:#1a2231;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:30px;
+    border:1px solid #2f3a52;
+}
+
+.pricing-title{
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.pricing-desc{
+    font-size:0.9rem;
+    color:#9fb2d4;
+}
+
+/* BUTTON */
+.back-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:14px 26px;
+    border-radius:100px;
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.2);
+    backdrop-filter:blur(15px);
+    transition:0.3s;
+}
+
+.back-btn:hover{
+    transform:translateY(-2px);
+}
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+<div class="header">
+<i class="fas fa-robot"></i>
+<h1>Telegram Bot Developer</h1>
+</div>
+
+<div class="description">
+I design and deploy scalable Telegram bots with automation systems, payment integration, and secure VPS hosting. 
+From simple utility bots to advanced admin and automation tools, I provide complete setup and maintenance.
+</div>
+
+<div class="section-title">// bot services</div>
+
+<div class="grid">
+
+<div class="card">
+<i class="fas fa-users-cog"></i>
+<div class="card-title">Group Management Bots</div>
+<div class="card-desc">Auto-moderation, anti-spam, welcome systems, logging & admin controls.</div>
+</div>
+
+<div class="card">
+<i class="fas fa-coins"></i>
+<div class="card-title">Payment & Subscription Bots</div>
+<div class="card-desc">Automated premium access, subscription handling, and user verification.</div>
+</div>
+
+<div class="card">
+<i class="fas fa-bolt"></i>
+<div class="card-title">Automation Bots</div>
+<div class="card-desc">Auto posting, scheduled content, channel-to-channel forward systems.</div>
+</div>
+
+<div class="card">
+<i class="fas fa-database"></i>
+<div class="card-title">Custom Database Bots</div>
+<div class="card-desc">User tracking, analytics, and advanced data handling solutions.</div>
+</div>
+
+</div>
+
+<div class="section-title">// vps hosting service</div>
+
+<div class="pricing-box">
+<div class="pricing-title">24/7 VPS Bot Hosting</div>
+<div class="pricing-desc">
+Secure VPS deployment, uptime monitoring, auto-restart system, and maintenance support for Telegram bots.
+Ideal for creators, channel owners, and automation-based businesses.
+</div>
+</div>
+
+<a href="index.html" class="back-btn">
+<i class="fas fa-arrow-left"></i> Back to Portfolio
+</a>
+
+</div>
+
+</body>
+</html>
